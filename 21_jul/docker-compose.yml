@@ -1,0 +1,20 @@
+# From https://hub.docker.com/_/postgres
+version: '3.1'
+
+services:
+
+  db:
+    image: postgres:13
+    restart: always
+    env_file:
+      - ./.env
+    volumes:
+      - type: bind
+        source: ./sql
+        target: /dev/scripts/sql
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 5050:8080
