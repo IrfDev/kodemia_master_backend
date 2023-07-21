@@ -11,3 +11,8 @@ Where the directories are being order by date. Each one will includes:
 
 
 Noob stuff, there are not agregated value on this repo more than personal (for now). 
+
+
+# Syllabus
+
+
