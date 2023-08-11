@@ -57,3 +57,38 @@ Based on a specific field we assign in our database
 ### Foreign key:
 
 Identify a registry in an external table
+
+## Joins:
+
+When you have different conjuncts
+
+### Innner join
+
+![Inner join diagram](./inner_join.jpeg "asdas")
+
+Data that we have on TABLE_A and TABLE_B
+
+### Outer join
+
+![Inner join diagram](./outer_joins.jpg)
+
+#### Left join
+
+All the data present in TABLE_A
+
+When you run this query   **LEFT JOIN** you'll bring data present in TABLE_B
+
+When you use **LEFT OUTER JOIN** you'll bring data present in TABLE_A but not in TABLE_B
+
+#### Right Join
+
+All the data present in TABLE_B
+
+To get all data from TABLE_B you can use **RIGHT JOIN**
+
+To get all data that are not in TABLE_A we'll use **RIGHT OUTER JOIN**
+
+#### Full Outer Join
+
+To get all data from one or another, but not coincident
+
