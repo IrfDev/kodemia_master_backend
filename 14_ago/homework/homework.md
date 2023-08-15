@@ -1,6 +1,7 @@
 # Homework
 ### Dentis appointments
 
+![Dentist schema](Dentist.png)
 ``````dbml
 Table dentist {
   dentist_id integer [primary key]
