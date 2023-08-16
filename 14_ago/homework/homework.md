@@ -57,3 +57,64 @@ Ref: Office.office_id > Project.office_assigned
 tment_id
 
 ``````
+
+
+### Workers list
+
+![Dentist schema](Workers%20list.png)
+
+``````dbml
+Table Worker {
+  worker_id integer
+  name varchar
+  role integer
+  table integer
+  office integer
+}
+
+Table Role {
+  role_id integer
+  name varchar
+}
+
+Table Office {
+  office_id integer
+  name varchar
+  address varchar
+}
+
+Ref: Worker.role < Role.role_id
+Ref: Worker.office < Office.office_id
+
+``````
+
+
+
+### 
+
+![Dentist schema](Workers%20list.png)
+
+``````dbml
+Table Worker {
+  worker_id integer
+  name varchar
+  role integer
+  table integer
+  office integer
+}
+
+Table Role {
+  role_id integer
+  name varchar
+}
+
+Table Office {
+  office_id integer
+  name varchar
+  address varchar
+}
+
+Ref: Worker.role < Role.role_id
+Ref: Worker.office < Office.office_id
+
+``````
