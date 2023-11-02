@@ -22,6 +22,7 @@ def get_connection_and_cursor():
     # )
 
     # # Query the database and obtain data as Python objects.
+    # The new db connection
     # cursor.execute("SELECT * FROM test")
     # cursor.fetchone()
     # # will return (1, 100, "abc'def")
